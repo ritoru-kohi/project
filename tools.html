@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoffeeMolka's Atelier | Инструменты</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">CoffeeMolka's Atelier</a>
+      <div class="nav-links">
+        <a href="index.html">Главная</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="tools.html" class="active">Инструменты</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section>
+      <div class="container">
+        <h2 class="scroll-fade">Инструменты</h2>
+        <p class="subhead scroll-fade">Всё для начинающих</p>
+
+        <div class="tools-grid">
+          <div class="tool-card scroll-fade">
+            <img src="https://i.pinimg.com/1200x/96/31/4c/96314c57b97f9e41f57bfbe17d03c66c.jpg" alt="palette">
+            <div class="badge">Палитры</div>
+            <h3>Генератор цветов</h3>
+            <p>Гармония за секунду</p>
+          </div>
+          <div class="tool-card scroll-fade">
+            <img src="https://i.pinimg.com/1200x/03/08/3e/03083e8f11e46228f6335d3cf82cbeb7.jpg" alt="brushes">
+            <div class="badge">Кисти</div>
+            <h3>Библиотека кистей</h3>
+            <p>Для Procreate и PS</p>
+          </div>
+          <div class="tool-card scroll-fade">
+            <img src="https://i.pinimg.com/736x/88/e2/43/88e24366f5a534d7811b359bd2c2778f.jpg" alt="comp">
+            <div class="badge">Композиция</div>
+            <h3>Абстрактные картины</h3>
+            <p>Правило третей</p>
+          </div>
+          <div class="tool-card scroll-fade">
+            <img src="https://i.pinimg.com/736x/f1/e2/91/f1e2917bc564e881ebfd3243a2fcb8b9.jpg" alt="texture">
+            <div class="badge">Текстуры</div>
+            <h3>Холст/бумага/стекло</h3>
+            <p>Работа над текстурами</p>
+          </div>
+          <div class="tool-card scroll-fade">
+            <img src="https://i.pinimg.com/1200x/9b/41/75/9b4175a7232b19ef831162b579b6b817.jpg" alt="persp">
+            <div class="badge">Перспектива</div>
+            <h3>Перспектива</h3>
+            <p>Для архитектуры</p>
+          </div>
+          <div class="tool-card scroll-fade">
+            <img src="https://i.pinimg.com/1200x/34/d7/02/34d7020bee16b2ba0f8c5734cd537c53.jpg" alt="ref">
+            <div class="badge">Референсы</div>
+            <h3>10k+ референсов</h3>
+            <p>Анатомия, природа</p>
+          </div>
+        </div>
+
+        <h2 style="margin-top: 3rem;" class="scroll-fade">Что говорят</h2>
+        <div class="testimonials">
+          <div class="testimonial scroll-fade">
+            <p>"Здесь я нашёл вдохновение и друзей!"</p>
+            <div style="color:var(--rothko); font-weight:bold;">Виктор</div>
+            <span style="color:var(--rothko)">(дизайнер)</span>
+          </div>
+          <div class="testimonial scroll-fade">
+            <p>"Платформа изменила моё творчество."</p>
+            <div style="color:var(--rothko); font-weight:bold;">Дарина</div>
+            <span style="color:var(--rothko)">(иллюстратор)</span>
+          </div>
+          <div class="testimonial scroll-fade">
+            <p>"Удобно, красиво, сообщество комфортное"</p>
+            <div style="color:var(--rothko); font-weight:bold;">Анна</div>
+            <span style="color:var(--rothko)">(аниматор)</span>
+          </div>
+        </div>
+
+        <div class="form-card scroll-fade">
+          <h3 style="text-align:center; margin-bottom:1rem;">Присоединяйся</h3>
+          <form id="joinForm">
+            <input type="text" id="name" placeholder="Твоё имя" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea rows="2" placeholder="Коротко о себе"></textarea>
+            <button type="submit" style="width:100%;">Отправить заявку</button>
+            <p id="formMsg" style="margin-top:0.8rem; font-size:0.85rem; text-align:center;"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>CoffeeMolka's Atelier — Сообщество художников | © 2025 | contact@coffeemolkaart.ru</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
